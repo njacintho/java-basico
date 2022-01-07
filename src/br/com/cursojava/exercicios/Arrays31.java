@@ -27,6 +27,5 @@ public class Arrays31 {
 			}
 		}
 		System.out.println();
-
 	}
 }

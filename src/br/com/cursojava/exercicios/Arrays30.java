@@ -39,6 +39,5 @@ public class Arrays30 {
 			System.out.print(vetorC[i] + " ");
 		}
 		System.out.println();
-	
 	}
 }

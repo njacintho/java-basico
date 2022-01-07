@@ -30,6 +30,5 @@ public class Arrays27 {
 		}
 		System.out.println();
 	
-
 	}
 }
