@@ -20,7 +20,6 @@ public class Arrays31 {
 			System.out.println("***************");
 			System.out.println(vetorA[i] + " ");
 			
-
 			for (int i1 = 0; i1 <= 10; i1++) {
 				int result = vetorA[i] * i1;
 				System.out.println(vetorA[i] + " X " + i1 + " = " + result);

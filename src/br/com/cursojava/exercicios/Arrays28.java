@@ -40,7 +40,6 @@ public class Arrays28 {
 		}
 		System.out.println();
 	
-
 		System.out.print("Vetor C = ");
 		for (int i = 0; i < vetorC.length; i++) {
 			System.out.print(vetorC[i] + " ");
