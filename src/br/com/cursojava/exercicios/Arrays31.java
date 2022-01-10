@@ -12,7 +12,6 @@ public class Arrays31 {
 		for (int i = 0; i < vetorA.length; i++) {
 			System.out.println("Entre com um núemro no Vetor A: ");
 			vetorA[i] = scan.nextInt();
-
 		}
 
 		System.out.print("Tabuada ");

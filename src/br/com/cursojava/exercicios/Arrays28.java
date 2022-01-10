@@ -19,7 +19,7 @@ public class Arrays28 {
 			System.out.println("Entre com um núemro no Vetor B: ");
 			vetorB[i] = scan.nextInt();
 		}
-		
+
 		for(int i = 0; i<(vetorC.length); i++) {
 			vetorC[i] = vetorB[i]; 
 		}

@@ -16,7 +16,7 @@ public class Arrays27 {
 			vetorB[vetorA.length - i -1] = vetorA[i];
 		}
 		
-		
+	
 		System.out.print("Vetor A = ");
 		for (int i = 0; i < vetorA.length; i++) {
 			System.out.print(vetorA[i] + " ");
