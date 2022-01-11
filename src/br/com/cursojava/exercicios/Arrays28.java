@@ -13,20 +13,18 @@ public class Arrays28 {
 		for (int i = 0; i < vetorA.length; i++) {
 			System.out.println("Entre com um núemro no Vetor A: ");
 			vetorA[i] = scan.nextInt();
+			
+			vetorC[i] = vetorA[i]; 
 		}
 		
 		for (int i = 0; i < vetorB.length; i++) {
 			System.out.println("Entre com um núemro no Vetor B: ");
 			vetorB[i] = scan.nextInt();
+			
+			vetorC[vetorA.length + i] = vetorB[i];
 		}
 
-		for(int i = 0; i<(vetorC.length); i++) {
-			vetorC[i] = vetorB[i]; 
-		}
-		
-		for(int i = 0; i<(vetorC.length); i++) {
-			vetorC[i] = vetorA[i]; 
-		}
+	
 		
 		System.out.print("Vetor A = ");
 		for (int i = 0; i < vetorA.length; i++) {
