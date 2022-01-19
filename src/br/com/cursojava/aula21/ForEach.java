@@ -10,7 +10,7 @@ public class ForEach {
 		for(int i = 0; i < notas.length; i++) {
 			notas[i] = random.nextInt(10);
 		}
-		
+	
 		System.out.println("Usando o forEach");
 	
 		for (int nota : notas) {
