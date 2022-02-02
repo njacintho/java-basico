@@ -20,8 +20,8 @@ public class Aluno {
 			System.out.println();
 		}
 		System.out.println();
-
 	}
+	
 	double obeterMedia(int indice) {
 		double soma = 0;
 		for (int i = 0; i < notas.length; i++) {

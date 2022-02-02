@@ -24,7 +24,6 @@ public class TesteAluno {
 			aluno.disciplinas[i] = scan.next();
 		}
 		
-
 		for (int i = 0; i < aluno.notas.length; i++) {
 			System.out.println("Notas da disciplina de " + aluno.disciplinas[i]);
 			for (int j = 0; j < aluno.notas[i].length; j++) {
@@ -46,7 +45,6 @@ public class TesteAluno {
 				System.out.println("Disciplina: " + aluno.disciplinas[i] + ". Está reprovado");
 			}
 		}
-
 	}
 
 }
